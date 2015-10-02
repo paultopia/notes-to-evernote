@@ -1,16 +1,17 @@
 This is a helper command-line utility designed to facilitate getting notes from apple notes into useful form.
 
-I wrote this because after upgrading to ios9 and el capitan, newly created apple notes from the "upgraded" version decided to stop syncing.  So I decided to migrate away from using apple notes.
+I wrote this because after upgrading to ios9 and el capitan, newly created apple notes from the "upgraded" version decided to stop syncing.  So I decided to migrate away from using Apple notes.  In case you're having the same problem, this may help.
 
-However, a wonderful little tool by a chap named Pedro Matiello takes all your apple notes and dumps them into html files in a directory--- and it appears to still work in el capitan (at least on notes without any of the new formatting.  Haven't tried on new formatting notes.)  That tool: https://github.com/pmatiello/notes-export
+A wonderful little tool by a chap named Pedro Matiello takes all your apple notes and dumps them into html files in a directory--- and it appears to still work in el capitan (at least on notes without any of the new formatting.  Haven't tried on new formatting notes.)  That tool: https://github.com/pmatiello/notes-export
 
-So I wrote this to gather up all the html files that Matiello's tool creates and stick them somewhere more useful, namely into an Evernote folder.  (Google Keep would be nicer, but it doesn't appear that Google Keep has an api.)
+This tool gathers up all the html files that Matiello's tool creates and stick them somewhere more useful, namely into an Evernote folder.  (Google Keep would be nicer, but it doesn't appear that Google Keep has an api.)
 
 You need an Evernote account (obviously), and you need to get a developer token.  The dev token can be acquired from Evernote: https://dev.evernote.com/#apikey
 
-USAGE: first, use Matiello's tool to put all your notes in a clean new directory.
+**USAGE**
+1. First, use Matiello's tool to put all your notes in a clean new directory.
 
-then call this tool from the command line:
+2. then call this tool from the command line, as follows:
 
 python n2ev.py DEVTOKEN FULLPATHTODIR NOTEBOOKNAME
 
