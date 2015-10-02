@@ -1,8 +1,8 @@
-This is a helper command-line utility designed to facilitate getting notes from apple notes into Evernote.
+This is a helper command-line utility designed to facilitate getting notes from Apple notes into Evernote.
 
-It depends on a wonderful little tool by a chap named Pedro Matiello which takes all your apple notes and dumps them into html files in a directory--- and it appears to still work in el capitan (at least on notes without any of the new formatting.  Haven't tried on new formatting notes.)  That tool: https://github.com/pmatiello/notes-export
+It depends on a wonderful little tool by a chap named Pedro Matiello which takes all your Apple notes and dumps them into html files in a directory--- and it appears to still work in El Capitan (at least on notes without any of the new formatting.  Haven't tried on new formatting notes.)  That tool: https://github.com/pmatiello/notes-export
 
-This tool gathers up all the html files that Matiello's tool creates and stick them somewhere more useful, namely into an Evernote folder.  (Google Keep would be nicer, but it doesn't appear that Google Keep has an api.  I wrote this to migrate away from using Apple notes because of sync problems/slowness after upgrading to el capitan/ios9.  Evernote, however, also has sync problems.  So I guess you choose which you'd rather deal with more.  Or help nag Google to make it possible to programmatically interact with Keep: https://code.google.com/p/google-apps-script-issues/issues/detail?id=3477 )
+This tool gathers up all the html files that Matiello's tool creates and stick them somewhere more useful, namely into an Evernote folder.  (Google Keep would be nicer, but it doesn't appear that Google Keep has an api.  I wrote this to migrate away from using Apple notes because of sync problems/slowness after upgrading to El Capitan/iOS9.  Evernote, however, also has sync problems.  So I guess you choose which you'd rather deal with more.  Or help nag Google to make it possible to programmatically interact with Keep: https://code.google.com/p/google-apps-script-issues/issues/detail?id=3477 )
 
 You need an Evernote account (obviously), and you need to get a developer token.  The dev token can be acquired from Evernote: https://dev.evernote.com/#apikey
 
