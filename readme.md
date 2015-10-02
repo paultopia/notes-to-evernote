@@ -9,6 +9,7 @@ This tool gathers up all the html files that Matiello's tool creates and stick t
 You need an Evernote account (obviously), and you need to get a developer token.  The dev token can be acquired from Evernote: https://dev.evernote.com/#apikey
 
 **USAGE**
+
 1. First, use Matiello's tool to put all your notes in a clean new directory.
 
 2. then call this tool from the command line, as follows:
@@ -24,12 +25,15 @@ FULLPATHTODIR is, obviously, the path to the directory in which your notes are s
 NOTEBOOKNAME is the new evernote notebook to be created.  If you give it an existing notebook, it'll throw an error, so don't do that.  (n.b. it would be pretty easy to wrap that in a try/except block to just allow this tool to save to an existing notebook if the one you pass it is found, but I can't be bothered.  makes more sense to just make a new notebook for it anyway.)
 
 **Requires**
+
 evernote amd beautifulsoup4 modules, both of which can be installed from pip.
 
 **DISCLAIMER**
+
 I'm not responsible if you delete your shit using this.  Only run it if you know what you're doing.  I've tested it successfully on a couple of trivial files and the Evernote sandbox server, but haven't run it on my own thousands-of-notes note collection yet.  I believe it will work...
 
 **LICENSE**
+
 The MIT License (MIT)
 
 Copyright (c) 2015 Paul Gowder, http://paul-gowder.com
