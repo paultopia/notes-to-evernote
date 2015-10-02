@@ -1,10 +1,8 @@
-This is a helper command-line utility designed to facilitate getting notes from apple notes into useful form.
+This is a helper command-line utility designed to facilitate getting notes from apple notes into Evernote.
 
-I wrote this because after upgrading to ios9 and el capitan, newly created apple notes from the "upgraded" version decided to stop syncing.  So I decided to migrate away from using Apple notes.  In case you're having the same problem, this may help.
+It depends on a wonderful little tool by a chap named Pedro Matiello which takes all your apple notes and dumps them into html files in a directory--- and it appears to still work in el capitan (at least on notes without any of the new formatting.  Haven't tried on new formatting notes.)  That tool: https://github.com/pmatiello/notes-export
 
-A wonderful little tool by a chap named Pedro Matiello takes all your apple notes and dumps them into html files in a directory--- and it appears to still work in el capitan (at least on notes without any of the new formatting.  Haven't tried on new formatting notes.)  That tool: https://github.com/pmatiello/notes-export
-
-This tool gathers up all the html files that Matiello's tool creates and stick them somewhere more useful, namely into an Evernote folder.  (Google Keep would be nicer, but it doesn't appear that Google Keep has an api.)
+This tool gathers up all the html files that Matiello's tool creates and stick them somewhere more useful, namely into an Evernote folder.  (Google Keep would be nicer, but it doesn't appear that Google Keep has an api.  I wrote this to migrate away from using Apple notes because of sync problems/slowness after upgrading to el capitan/ios9.  Evernote, however, also has sync problems.  So I guess you choose which you'd rather deal with more.  Or help nag Google to make it possible to programmatically interact with Keep: https://code.google.com/p/google-apps-script-issues/issues/detail?id=3477 )
 
 You need an Evernote account (obviously), and you need to get a developer token.  The dev token can be acquired from Evernote: https://dev.evernote.com/#apikey
 
