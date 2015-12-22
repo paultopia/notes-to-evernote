@@ -16,7 +16,7 @@ python n2ev.py DEVTOKEN FULLPATHTODIR NOTEBOOKNAME
 
 (probably easiest to wrap the arguments in quotes)
 
-DEVTOKEN is the developer token for your Evernote acconut
+DEVTOKEN is the developer token for your Evernote account
 
 FULLPATHTODIR is, obviously, the path to the directory in which your notes are stored, as html files.  Nothing else should be in it.  Usefully, in el capitan, if you right-click/secondary-click on the folder name in finder, then hold the option key, you will get an option to copy the full path name.  
 
